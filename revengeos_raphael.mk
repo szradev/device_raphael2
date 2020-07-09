@@ -1,20 +1,20 @@
 #
-# Copyright (C) 2019 The Project Bliss
+# Copyright (C) 2019 The Project Raphael
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Bliss stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common Revenge stuff.
+$(call inherit-product, vendor/revengeos/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := bliss_raphael
+PRODUCT_NAME := revengeos_raphael
 
 BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFKINXM:user/release-keys"
 

@@ -464,6 +464,13 @@
     <!-- Vowifi -->
     <bool name="config_hasVowifi">true</bool>
 
+    <!-- If this is true, the screen<<<<<<< HEAD will fade off. -->
+    <bool name="config_animateScreenLights">false</bool>
+
+    <!-- Enable pocket mode -->
+    <bool name="config_proxiSensorWakupCheck">true</bool>
+
+
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
@@ -471,6 +478,6 @@
     <bool name="config_targetUsesInKernelDimming">false</bool>
 
     <!-- Screen brightness when dozing -->
-    <integer name="config_screenBrightnessDoze">55</integer>
+    <integer name="config_screenBrightnessDoze">75</integer>
 
 </resources>

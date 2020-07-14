@@ -33,7 +33,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.eyecare.brightness.threshold=11 \
     ro.eyecare.brightness.level=5 \
-    ro.displayfeature.histogram.enable \
+    ro.displayfeature.histogram.enable=true \
     ro.hist.brightness.threshold=7 \
     ro.sf.lcd_density=440 \
     ro.vendor.display.ad=1 \
@@ -106,3 +106,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Vendor
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true

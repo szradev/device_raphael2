@@ -22,7 +22,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/ANXCamera/config.mk)
+<<<<<<< HEAD:revengeos_raphael.mk
 
 # MIUI Camera overlay
 PRODUCT_PACKAGES += \
     MiuiCamera-res
+=======
+>>>>>>> 1ba8de9e5441bcbc66c0353fdddcced80d126b8b:bliss_raphael.mk

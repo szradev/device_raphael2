@@ -381,7 +381,7 @@
 
     <!-- Specifies the maximum burn-in offset displacement from the center. If -1, no maximum value
          will be used. -->
-    <integer name="config_burnInProtectionMaxRadius">70</integer>
+    <integer name="config_burnInProtectionMaxRadius">15</integer>
 
     <!-- Specifies the minimum burn-in offset horizontally. -->
     <integer name="config_burnInProtectionMinHorizontalOffset">-15</integer>
@@ -390,10 +390,10 @@
     <integer name="config_burnInProtectionMaxHorizontalOffset">15</integer>
 
     <!-- Specifies the minimum burn-in offset vertically. -->
-    <integer name="config_burnInProtectionMinVerticalOffset">-40</integer>
+    <integer name="config_burnInProtectionMinVerticalOffset">-15</integer>
 
     <!-- Specifies the maximum burn-in offset vertically. -->
-    <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+    <integer name="config_burnInProtectionMaxVerticalOffset">15</integer>
 
     <!-- SystemInfo Sys Nodes -->
     <bool name="config_deviceSupportSysInfo">true</bool>
@@ -456,9 +456,6 @@
     <!-- If face auth sends the user directly to home/last open app, or stays on keyguard -->
     <bool name="config_faceAuthDismissesKeyguard">false</bool>
 
-    <!-- FOD Icon Dimming -->
-    <bool name="config_targetUsesInKernelDimming">false</bool>
-
     <!-- Vowifi -->
     <bool name="config_hasVowifi">true</bool>
 
@@ -467,5 +464,8 @@
 
     <!-- FOD Icon Dimming -->
     <bool name="config_targetUsesInKernelDimming">false</bool>
+    
+    <!-- Screen brightness when dozing -->
+    <integer name="config_screenBrightnessDoze">55</integer>
 
 </resources>

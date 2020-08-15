@@ -265,6 +265,9 @@
         <item>445</item>
     </array>
 
+    <!-- Full screen aspect ratio -->
+   <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">6</integer>
 

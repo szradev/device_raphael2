@@ -497,4 +497,7 @@
     <!-- Screen brightness when dozing -->
     <integer name="config_screenBrightnessDoze">75</integer>
 
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
+
 </resources>

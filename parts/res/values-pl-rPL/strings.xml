@@ -69,7 +69,7 @@
     <string name="popup_title_cangmen">Cabin door</string>
 
     <!-- Thermal Profiles -->
-    <string name="thermal_title">Thermal Profiles</string>
+    <string name="thermal_title">Profile wydajności</string>
     <string name="thermal_summary">Dopasuj thermal profile dla każdej aplikacji</string>
     <string name="thermal_default">Default</string>
     <string name="thermal_benchmark">Benchmark</string>

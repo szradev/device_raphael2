@@ -109,3 +109,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+		ro.config.media_vol_steps=28

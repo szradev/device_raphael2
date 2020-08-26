@@ -36,11 +36,11 @@ public class PickupSensor implements SensorEventListener {
     private static final boolean DEBUG = false;
     private static final String TAG = "PickupSensor";
 
-    private static final int MIN_PULSE_INTERVAL_MS = 2500;
+    private static final int MIN_PULSE_INTERVAL_MS = 1500;
     private static final int MIN_WAKEUP_INTERVAL_MS = 1000;
     private static final int WAKELOCK_TIMEOUT_MS = 300;
 
-    private SensorManager mSensorManager;
+    private Thermal ProfilesSensorManager mSensorManager;
     private Sensor mSensor;
     private Context mContext;
     private ExecutorService mExecutorService;

@@ -7,14 +7,14 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common Revenge stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/aim/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := revengeos_raphael
+PRODUCT_NAME := aim_raphael
 
 BUILD_FINGERPRINT := "Xiaomi/raphaelin/raphaelin:9/PKQ1.181121.001/V10.3.3.0.PFKINXM:user/release-keys"
 
@@ -24,5 +24,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 $(call inherit-product, vendor/ANXCamera/config.mk)
 
 # MIUI Camera overlay
-
-
